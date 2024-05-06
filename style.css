@@ -15,3 +15,17 @@ body {
   main {
     flex: 1 0 auto;
   }
+.logo-hnub {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.plant {
+    height: 50px;
+}
+
+/* FOOTER */
+/* .page-footer {
+    height: 
+} */
