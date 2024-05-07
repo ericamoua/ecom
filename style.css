@@ -16,8 +16,8 @@ body {
     flex: 1 0 auto;
   }
 .logo-hnub {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     align-items: center;
 }
 
@@ -29,3 +29,89 @@ body {
 /* .page-footer {
     height: 
 } */
+
+/* .page-footer {
+    padding-top: 15px; /* Adjust the top padding as needed */
+    /* padding-bottom: 15px; /* Adjust the bottom padding as needed */
+
+.container-footer {
+    height: 100px;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn .center {
+    justify-content: center;
+    display: flex;
+}
+/* FORM */
+.form {
+    height: 300px;
+    width: 300px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+/* email icon */
+.email-icon {
+    position: absolute;
+    top: 28px;
+    left: 15px;
+  }
+  
+
+  .email-label {
+    position: absolute;
+    top: 8px;
+    left: 40px;
+  }
+
+/* CSS */
+.materialize-textarea {
+    width: 100%; 
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+/* SLIDES */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+    transform-origin: left; 
+
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
