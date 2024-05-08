@@ -81,7 +81,7 @@ body {
 }
 
 /* SLIDES */
-.carousel {
+/* .carousel {
     width: 100%;
     overflow: hidden;
   }
@@ -114,4 +114,18 @@ body {
   .carousel-next {
     right: 10px;
   }
-  
+   */
+
+   .container-plant {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-imagess {
+    flex: 0 0 100%;
+    max-width: 100%;
+}

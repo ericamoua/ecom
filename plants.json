@@ -1,0 +1,76 @@
+{
+  "plants": [
+    {
+      "Name": "Medium Sago Palm",
+      "Price": 30.00,
+      "Detail": "Takes indirect bright light ie; a north-facing window. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": false,
+      "ImageFilePath": ""
+    },
+    {
+      "Name": "MEDIUM PINK ANTHURIUM",
+      "Price": 40.00,
+      "Detail": "Takes indirect bright light ie; a north-facing window, and can live in low light ie; a dark room with little natural light. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": false
+    },
+    {
+      "Name": "MEDIUM CALADIUM LINDENII",
+      "Price": 28.00,
+      "Detail": "Takes indirect bright light ie; a north facing window, Also can be in shady areas ie; away from a bright window. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": false
+    },
+    {
+      "Name": "MEDIUM PHILODENDRON 'BRANDI'",
+      "Price": 45.00,
+      "Detail": "Takes indirect bright light ie; a north facing window, Also can be in shady areas ie; away from a bright window. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": false
+    },
+    {
+      "Name": "LARGE MONSTERA DELICIOSA",
+      "Price": 80.00,
+      "Detail": "Takes indirect bright light ie; a north facing window, also can be in shady areas ie; away from a bright window, also can live in low light ie; a dark room with little natural light. Water thoroughly every 2 weeks (when the first 2 inches of soil dries)",
+      "Pet Friendly": true
+    },
+    {
+      "Name": "LARGE SNAKE PLANT (TRIFASCIATA)",
+      "Detail": "Takes indirect bright light ie; a north facing window, also can be in shady areas ie; away from a bright window, also can live in low light ie; a dark room with little natural light. Water thoroughly every 2 weeks (when the first 2 inches of soil dries)",
+      "Pet Friendly": false
+    },
+    {
+      "Name": "SMALL WATERMELON PEPEROMIA",
+      "Price": 32.00,
+      "Detail": "Also can live in low light ie; a dark room with little natural light. Water thoroughly every 5-7 days (when the first inch of soil dries)",
+      "Pet Friendly": true
+    },
+    {
+      "Name": "SMALL CHINESE EVERGREEN 'WISHES' (AGLAONEMA)",
+      "Price": 45.00,
+      "Detail": "Takes indirect bright light ie; a north facing window. Water thoroughly every 2 weeks (when the first 2 inches of soil dries)",
+      "Pet Friendly": false
+    },
+    {
+      "Name": "MEDIUM CALATHEA PINSTRIPE",
+      "Price": 37.00,
+      "Detail": "Takes indirect bright light ie; a north facing window, Also can be in shady areas ie; away from a bright window. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": true
+    },
+    {
+      "Name": "MEDIUM MARANTA LEUCONEURA",
+      "Price": 28.00,
+      "Detail": "Takes indirect bright light ie; a north facing window, Also can be in shady areas ie; away from a bright window, Also can live in low light ie; a dark room with little natural light. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": true
+    },
+    {
+      "Name": "MEDIUM SCINDAPSUS TREUBII 'MOONLIGHT'",
+      "Price": 34.00,
+      "Detail": "Takes indirect bright light ie; a north facing window, Also can be in shady areas ie; away from a bright window, Also can live in low light ie; a dark room with little natural light. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": false
+    },
+    {
+      "Name": "MEDIUM BEGONIA 'MACULATA' (ANGEL WINGS)",
+      "Price": 43.00,
+      "Detail": "Takes indirect bright light ie; a north facing window, Also can be in shady areas ie; away from a bright window. Water every 10-14 days (when the first inch of the soil dries)",
+      "Pet Friendly": false
+    }
+  ]
+}
