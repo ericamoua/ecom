@@ -1,39 +1,50 @@
-.plant-icon {
+.plant-icon { /* add media query padding left */
     width: 50px;
     height: 50px;
     padding-top: 10px;
 }
-/* add media query padding left */
-
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
-.logo-hnub {
-    height: 100px;
-    width: 100px;
-    align-items: center;
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100hv;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.plant {
-    height: 50px;
+.header-home {
+  margin-bottom: -30px;
+  font-size: 64px;
 }
+
+.slider video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.store-image {
+  width: 20%;
+  height: 20%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0; /* Add this line */
+}
+
 
 /* FOOTER */
-/* .page-footer {
-    height: 
-} */
-
-/* .page-footer {
-    padding-top: 15px; /* Adjust the top padding as needed */
-    /* padding-bottom: 15px; /* Adjust the bottom padding as needed */
-
+.copyright {
+  text-align: center;
+}
 .container-footer {
     height: 100px;
 }
