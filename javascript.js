@@ -1,10 +1,20 @@
 function getJson() {
   fetch('./plants.json')
     .then((response) => response.json())
-    .then((json) => console.log(json));
+    .then((json) => {
+      let plantInfo = '';
+      json.plants.forEach((plant) => {
+        plantInfo += `<img src="${plant.ImageFilePath}"></img>`;
+      });
+      console.log(json.plants);
+      document.getElementById("plant-container").innerHTML = plantInfo;
+    });
 }
+
 getJson();
-console.log(test);
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, {});
@@ -44,3 +54,4 @@ document.addEventListener("DOMContentLoaded", function() {
       carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
   }, 3000); // Change slide every 3 seconds (adjust as needed)
 });
+
