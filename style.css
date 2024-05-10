@@ -1,7 +1,15 @@
-.plant-icon { /* add media query padding left */
+.my-font{
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.plant-icon { 
     width: 50px;
     height: 50px;
     padding-top: 10px;
+    padding-left: 10px;
 }
 .flower-vid {
   position: relative;
@@ -17,7 +25,7 @@
 .header-home {
   margin-bottom: 40px;
   font-size: 100px;
-  color:lightblue;
+  color: #6a994e;
   font-family: "Sedan", serif;
   font-weight: lighter;
   letter-spacing: 5px;
@@ -58,7 +66,7 @@
   justify-content: center;
   padding: 5%;
   gap: 3%;
-  background-color: lightblue;
+  background-color: #dad7cd;
 }
 
 .course-img {
@@ -117,6 +125,8 @@ therefore, is this case every instance that a .text is inside of a .slide,
   justify-content: center;
   display: flex; 
   font-size: 30px;
+  color: #000000;
+  
 }
 
 .text-carol {
@@ -134,6 +144,7 @@ therefore, is this case every instance that a .text is inside of a .slide,
 }
 .copyright {
   text-align: center;
+  color: #6a994e;
 }
 .container-footer {
     height: 100px;
@@ -179,16 +190,17 @@ therefore, is this case every instance that a .text is inside of a .slide,
   font-weight: lighter;
   letter-spacing: 5px;
   font-size: 80px;
-  color: lightblue;
+  color: #6a994e;
 }
 
 .contact-img2 {
   width: 100%;
   font-family: "Sedan", serif;
+  font-style: italic;
   font-weight: lighter;
   letter-spacing: 5px;
   font-size: 30px;
-  color: lightblue;
+  color: #6a994e;
 }
 
 .contact-us {
@@ -374,5 +386,3 @@ therefore, is this case every instance that a .text is inside of a .slide,
     width: 100px;
   }
 }
-
-@media ()

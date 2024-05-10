@@ -39,6 +39,7 @@
     },
     {
       "Name": "LARGE SNAKE PLANT",
+      "Price": 26.00,
       "Detail": "Takes indirect bright light ie; a north facing window, also can be in shady areas ie; away from a bright window, also can live in low light ie; a dark room with little natural light. Water thoroughly every 2 weeks (when the first 2 inches of soil dries)",
       "Pet Friendly": false,
       "ImageFilePath": "images/largeSnakePlant.webp"
