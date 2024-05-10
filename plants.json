@@ -5,7 +5,8 @@
       "Price": 30.00,
       "Detail": "Takes indirect bright light ie; a north-facing window. Water every 10-14 days (when the first inch of the soil dries)",
       "Pet Friendly": false,
-      "ImageFilePath": "images/mediumSagoPalm.webp"
+      "ImageFilePath": "images/mediumSagoPalm.webp",
+      "link": "google.com"
     },
     {
       "Name": "MEDIUM PINK ANTHURIUM",
@@ -37,7 +38,7 @@
       
     },
     {
-      "Name": "LARGE SNAKE PLANT (TRIFASCIATA)",
+      "Name": "LARGE SNAKE PLANT",
       "Detail": "Takes indirect bright light ie; a north facing window, also can be in shady areas ie; away from a bright window, also can live in low light ie; a dark room with little natural light. Water thoroughly every 2 weeks (when the first 2 inches of soil dries)",
       "Pet Friendly": false,
       "ImageFilePath": "images/largeSnakePlant.webp"
