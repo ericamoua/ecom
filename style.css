@@ -49,6 +49,7 @@
   justify-content: center;
   padding: 5%;
   gap: 3%;
+  background-color: lightblue;
 }
 
 .course-img {
@@ -169,6 +170,7 @@ therefore, is this case every instance that a .text is inside of a .slide,
 
 .contact-us {
   background-image: url('http://paradiseplantsny.com/wp-content/uploads/2018/02/bg-pagetitle-02.jpg?id=2686');
+  background-size: cover;
   text-align: center;
   height: 600px;
 }
@@ -216,7 +218,7 @@ therefore, is this case every instance that a .text is inside of a .slide,
   grid-template-rows: repeat(4, auto); 
   gap: 20px; 
   border:none;
-
+  padding: 1%;
 }
 
 .card {
@@ -224,6 +226,8 @@ therefore, is this case every instance that a .text is inside of a .slide,
   border-radius: 5px;
   padding: 10px;
   width: 100%; 
+  flex-direction: column;
+  display: flex;
 }
 
 .card p {
@@ -236,9 +240,15 @@ therefore, is this case every instance that a .text is inside of a .slide,
 
 .plant-image {
   width: 50%;
+  padding-top: 20px;
   border-radius: 5px;
   display: block; 
   margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.plant-image:hover {
+  transform: scale(1.1);
 }
 
 .plant-price {
@@ -258,15 +268,14 @@ therefore, is this case every instance that a .text is inside of a .slide,
   width: 100%;
   padding: 8px;
   background-color: #4CAF50;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
 .card button:hover {
-  background-color: #45a049; /* Darker green */
+  background-color: #addfaf; /* Darker green */
 }
 /* for title */
 @media (max-width: 768px) {
@@ -315,5 +324,28 @@ therefore, is this case every instance that a .text is inside of a .slide,
       display: flex;
       flex-direction: column;
     }
+
+    .course-img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    /* .contact-us {
+     width: 200px;
+    }
+} */
+
+@media (max-width: 1526px) {
+  .store-image img {
+    height: 300px;
+    width: 300px;
+  }
+};
+
+@media (max-width: 1119px) {
+  .contact-us {
+    width: 100px;
+  }
 }
-  

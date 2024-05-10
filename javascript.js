@@ -22,24 +22,30 @@ function getJson() {
       name.textContent = plant.Name;
       card.appendChild(name);
 
+      //make div
+      const plantInfo = document.createElement('div');
+      plantInfo.classList.add('plant-info');
+  
       // Create price element
       const price = document.createElement('p');
       price.textContent = `Price: $${plant.Price}`;
-      card.appendChild(price);
+      plantInfo.appendChild(price);
 
       // Create detail element
       const detail = document.createElement('p');
       detail.textContent = `Detail: ${plant.Detail}`;
-      card.appendChild(detail);
+      plantInfo.appendChild(detail);
 
       // Create pet friendly element
       const petFriendly = document.createElement('p');
       petFriendly.textContent = `Pet Friendly: ${plant['Pet Friendly'] ? 'Yes' : 'No'}`;
-      card.appendChild(petFriendly);
+      plantInfo.appendChild(petFriendly);
+      card.appendChild(plantInfo);
 
       //create button for purchasing plants 
       const button = document.createElement('button');
       button.textContent = `Purchase`;
+      button.classList.add('purchase-button');
       card.appendChild(button);
 
       // Append card to container
