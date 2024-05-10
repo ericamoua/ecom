@@ -276,6 +276,7 @@ therefore, is this case every instance that a .text is inside of a .slide,
 .card h2 {
   font-size: 2em;
   text-align: center;
+  height: 65px;
 }
 
 .plant-image {
@@ -320,6 +321,9 @@ therefore, is this case every instance that a .text is inside of a .slide,
 
 .plant-info {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height:250px;
 }
 /* for title */
 @media (max-width: 768px) {
@@ -376,6 +380,10 @@ therefore, is this case every instance that a .text is inside of a .slide,
       align-items: center;
       gap: 20px;
     } 
+
+    .plant-info {
+      height: auto;
+    }
 }
 /* images */
 @media (max-width: 1526px) {
