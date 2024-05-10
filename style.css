@@ -384,6 +384,14 @@ therefore, is this case every instance that a .text is inside of a .slide,
     .plant-info {
       height: auto;
     }
+  
+    .contact-img {
+      color:burlywood;
+    }
+
+    .contact-img2{
+      color:burlywood;
+    }
 }
 /* images */
 @media (max-width: 1526px) {
@@ -393,7 +401,7 @@ therefore, is this case every instance that a .text is inside of a .slide,
   }
 };
 
-@media (max-width: 1119px) {
+@media (max-width: 600px) {
   .contact-us {
     width: 100px;
   }
