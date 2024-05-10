@@ -15,9 +15,18 @@
 }
 
 .header-home {
-  margin-bottom: -30px;
+  margin-bottom: 40px;
   font-size: 100px;
   color:lightblue;
+  font-family: "Sedan", serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+.headers {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 100;
 }
 
 .flower-vid video {
@@ -34,7 +43,7 @@
 }
 
 .store-image img{
-  max-width: 100%;
+  max-width: 700px;
   height: 700px;
 }
 
@@ -166,6 +175,20 @@ therefore, is this case every instance that a .text is inside of a .slide,
 
 .contact-img {
   width: 100%;
+  font-family: "Sedan", serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 80px;
+  color: lightblue;
+}
+
+.contact-img2 {
+  width: 100%;
+  font-family: "Sedan", serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 30px;
+  color: lightblue;
 }
 
 .contact-us {
@@ -192,6 +215,11 @@ therefore, is this case every instance that a .text is inside of a .slide,
     position: absolute;
     top: 28px;
     left: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .email-icon:hover {
+    transform: scale(1.2);
   }
   
 
@@ -275,7 +303,7 @@ therefore, is this case every instance that a .text is inside of a .slide,
   transition: background-color 0.3s;
 }
 .card button:hover {
-  background-color: #addfaf; /* Darker green */
+  background-color: #addfaf; 
 }
 /* for title */
 @media (max-width: 768px) {
@@ -323,6 +351,7 @@ therefore, is this case every instance that a .text is inside of a .slide,
     .address-info {
       display: flex;
       flex-direction: column;
+      width: 200px;
     }
 
     .course-img {
@@ -330,13 +359,9 @@ therefore, is this case every instance that a .text is inside of a .slide,
       flex-direction: column;
       align-items: center;
       gap: 20px;
-    }
-
-    /* .contact-us {
-     width: 200px;
-    }
-} */
-
+    } 
+}
+/* images */
 @media (max-width: 1526px) {
   .store-image img {
     height: 300px;
@@ -349,3 +374,5 @@ therefore, is this case every instance that a .text is inside of a .slide,
     width: 100px;
   }
 }
+
+@media ()
