@@ -7,16 +7,17 @@ function getJson() {
 
     // Loop through each plant and create a card
     data.plants.forEach(plant => {
-      // Create card element
-      const card = document.createElement('div');
-      card.classList.add('card');
+      const imageContainer = document.querySelector(".plant-image") 
 
       // Create image element
       const img = document.createElement('img');
       img.src = plant.ImageFilePath;
       img.classList.add('plant-image');
-      card.appendChild(img);
+      imageContainer.appendChild(img);
 
+      // TODO: Instead of appending all these elements to the card div
+      // create divs for each section within the class and append to those sub divs
+  
       // Create name element
       const name = document.createElement('h2');
       name.textContent = plant.Name;
